@@ -1,0 +1,360 @@
+/* CSS Document */
+*{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+width:100%;
+color:#000;
+height:auto;
+}
+a{
+	text-decoration:none;
+	color:#8a8a8a;
+	}
+img{
+	border:none;
+	}
+
+
+#noidungtintucnoibat a { color:#393839;}
+#noidungtintucnoibat a:hover { color:#bd307b;}	
+#tieudetintucngan {
+   
+    line-height:22px;
+    margin-left: 3px;
+    padding: 8px 10px;
+    width: 93%;
+}
+#right_1 {width:198px;  float:right; }
+.container {max-width:1020px;}
+#big { background:url(images/newweb.png) bottom center fixed no-repeat #fff; overflow:hidden;}
+#wrapper {background:#2284E7; box-shadow: 0 3px 8px #000; }
+#header {height:125px;  margin:auto;  background:url(images/banner.jpg);}
+#menu {height:38px;  margin:auto; background:url(images/1_07.png);}
+#phantramgiamgia { font-size:20px; background:#EFCA0D; color:#fff; text-align:center; width:60px; height:35px; opacity:0.94;position: absolute; margin-top:-83px; margin-left:177px; border:1px solid #ccc; line-height:35px; font-weight:600;}
+.phantramgiamgia { font-size:16px; width:103px; height:90px; position:absolute; z-index:3;transform: rotate(-42deg); 
+		-moz-transform: rotate(-42deg);
+		-webkit-transform: rotate(-42deg);  
+		text-align:center;
+		margin: 12px 0 0 1px;
+		color:#fff;
+		font-size:14px;
+		font-weight:600;
+}
+#khungsanpham2 { float:left; width:240px; height:230px; margin:5px;   overflow:hidden;   text-align:center;}
+
+#anhsanpham2 { width:236px;  height:183px; background:#fff; }
+#motasanpham2 {   background:none; line-height:20px; display:block; margin-top:5px;}
+#anhsanpham2 img { max-width:236px; max-height:183px; border:1px solid #BBD8F6;}
+#motasanpham2  a{ color:#929292; font-weight:500;}
+#motasanpham2  a:hover { color:red;}
+
+#motasanpham3 a  {color:#737373; line-height:20px; }
+#motasanpham3 h5 { font-size:15px; color:#5F5F78; font-weight:400;}
+#motasanpham3 h6 { font-size:14px; font-weight:500; color:#575757; text-align:right;}
+#motasanpham3 { 
+
+position: relative; line-height:20px;   width:99%; left:1px; }
+#khungsanpham2 :hover #motasanpham3 { display:block;}
+#khungsanpham2:hover #motasanpham2 {display:block;}
+.chiechop {bottom:0px !important;}
+#motasanpham2 .chiechop { bottom:46px !important;}
+
+
+
+#left {float:left; width:213px; margin-right:2px; overflow:hidden; margin-left:5px;}
+#content {float:left; overflow:hidden; }
+#footer_hamy { height:214px; background:url(images/bgf.png);}
+#menu2 {width:100% !important;}
+#tieudemenu1:hover {background:#B40030;}
+#tieudemenu1:hover a {color:#FFF;}
+#tieudemenu1 {width:100%; height:32px; line-height:32px; padding-left:4%; margin:2px 0; color:#000; font-weight:600; background:#F1F1F1;  }
+#tieudemenu1 a{ color:#242424;}
+#tieudemenu1 a:hover{ color:#FFF;}
+#noidungmenu1 {width:80%; height:42px; background:url(images/nenmenu.jpg); line-height:42px ; padding-left:20%;}
+#noidungmenu1 a {color:#013e02; font-weight:600; line-height:42px;}
+#noidungmenu1 a:hover {color:blue; font-weight:600;}
+#menu1 {width:99%;overflow:hidden;   }
+#menu2 {width:100%;overflow:hidden;  margin-top:5px; }
+#hotrotructuyen {width:98%;overflow:hidden;margin-top:5px;border:1px solid #CCCCCC; }
+#sanphambanchay {width:99%;overflow:hidden; border-radius:10px; margin-top:5px;border:1px solid #CCCCCC; }
+#danhmucmodun {width:99%;overflow:hidden; margin-top:5px; border:1px solid #fff; margin-top:10px; border-radius:5px; background:#fff;}
+#danhmucmodunchinh {width:99%; overflow:hidden; margin-top:5px; border:1px solid #68E297; margin-top:10px; border-radius:5px; background-color: #1E6135; background-image: -moz-linear-gradient(center top , #1E6135, #4BA156);}
+#tintucnoibat {width:267px;overflow:hidden; border-radius:10px; margin-top:5px; border:1px solid #CCCCCC;}
+#tieudemenu2 { height:48px; background:url(images/tieudemenu12.jpg) no-repeat;padding-left:60px; color:#FFFFFF; font-weight:600; }
+.table3 { width:100%;}
+#tieudemenu3 {width:230px; height:40px; background:url(images/tieudemenu3.jpg); line-height:40px; padding-left:30px; color:#444444; font-weight:600; }
+#tieudemenu4 {width:230px; height:38px; background:url(images/tieudemenu4.jpg); line-height:40px; padding-left:30px; color:#444444; font-weight:600; }
+#tieudemenu5 {width:100%; height:30px; background:#2284E7; line-height:30px; text-align:center; color:#FFF; font-weight:700; text-transform: uppercase;  }
+#tieudemenu8 {width:145px; height:33px; padding-left:35px;  background:url(images/ht_03.png); line-height:33px; color:#FFF; font-weight:700; text-transform: uppercase; font-size:11px; }
+#tieudemenu9 {width:90%; height:33px; padding-left:10%;  background:url(images/2_03.png) no-repeat center left; line-height:33px; color:#FFF500; font-weight:700;  border-bottom:1px solid #50B25F; }
+
+#noidungmenu2 {width:239px; height:28px; background:url(images/noidungmenu2.jpg); line-height:28px ; padding-left:35px;}
+#slide {width:717px; height:247px; float:left; }
+#danhmuccacsanpham { float:left; width:755px; overflow:hidden; padding-left:5px; border:1px solid #ccc;}
+#tieudecacdanhmuc { width:98%;  height:31px; color:#202020; line-height:30px; margin-bottom:1px; padding-left:10px; text-transform: uppercase; border-bottom:2px solid #202020; font-weight:600;}
+#noidungcacsanpham {width:765px; padding-left:5px; overflow:hidden; margin-top:-5px; padding-top:15px;}
+#khungsanpham {height:290px; width:242px; float:left;  border:1px solid #ccc; border-radius:7px; padding:3px; margin:2px;  margin-bottom:10px; }
+#anhsanpham {height:160px; width:240px;   margin-bottom:5px;  margin-right:2px; margin-top:15px;}
+#anhsanpham img { width:240px; height:160px;}
+#nutchitiet {text-align:center; }
+#motasanpham { line-height: 20px;   
+    text-align: center;
+    width: 240px;
+	float:left;
+	}
+#nenfooter {  margin:auto;}	
+#motasanpham h4 { font-size:13px; font-weight:600;}
+#motasanpham h5 { font-size:13px; font-weight:400; text-decoration:line-through;}
+#motasanpham h6 { font-size:15px; font-weight:400;}
+#motasanpham a {color:#525252;}
+#motasanpham a:hover {color:red;}
+#doitac {width:1000px; min-height: 110px;  float:left; background:#fff; overflow:hidden; padding-bottom:10px;}
+
+#nenvovanqua { width:100%; height:33px; background:url(../images/nen321.png); line-height:33px; padding-left:5px; color:#ffff00;}
+#hovernoidung {overflow:hidden;  max-height:450px; min-height:200px; color:#000; line-height:20px;}
+	.menuheaders{ width:190px; margin-left:8px; border-bottom:1px solid #55BC60; padding:7px 0px;}
+	.menuheaders a{ 
+
+    width: 185px;
+
+	 font-weight:500; 
+	font-size: 13px;
+	color:#fff;
+	margin-left:2px;
+	
+	}
+.menuheaders a:hover{  color:black;
+}	
+	
+.menucontents li { 
+    
+    width: 175px; 
+	margin: auto;
+	 font-size: 13px;
+	 border-bottom: 1px solid #55bc60;
+	 padding:7px 0px;
+	 
+	 
+	 }
+	
+	 
+.menucontents li a { line-height:14px;  padding-left:32px; font-weight:500; color:#fff; }
+.menucontents li a:hover { color:#000;}
+
+.support ul li {
+    padding: 5px 0;
+}
+.m1 a {}
+.m1 { border-right:none !important;}
+.mi:hover {}
+.m1 a {text-decoration:none !important; }
+.menu2{margin-top:-8px !important; margin-left:-2px;}
+.m2:hover a {background:#F3F3F3 !important;}
+.m2{text-align:left !important;}
+.menu3{margin-top:-13px;}
+.menu3 .m3{ background:#F3F3F3 !important;}
+.menu3 a{ background:#F3F3F3 !important;}
+.m3 {}
+.m3:hover a {background:rgba(69,78,56,0.4) !important; color:#FFF !important;}
+.m3:hover { }
+
+#wrapper #body{
+	background:#ffffff;
+	width:1000px;
+	height:auto;
+
+	}
+#wrapper #body #content{
+	width:1000px;
+	height:auto;
+	margin:0px auto;
+	overflow:hidden;
+	
+	}
+#wrapper #body #content #noibat{
+	float:left;
+	width:985px;
+	height:108px;
+	margin:20px 7px;
+	border-radius:8px;
+	border-bottom:1px #e5e5e5 solid;
+	border-left:1px #e5e5e5 solid;
+	border-right:1px #e5e5e5 solid;
+	border-top:1px #e5e5e5 solid;
+	}
+#wrapper #body #content #noibat h3{
+	background:url(../images/top_doitac.png) no-repeat;
+	width:188px;
+	height:27px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:26px;
+	font-weight:bold;
+	color:#ffffff;
+	text-align:left;
+	height:26px;
+	text-transform:uppercase;
+	border-radius:4px;
+	padding-left:35px;
+	position:absolute;
+	display:block;
+	z-index:9;
+	margin:-10px 10px;
+}
+#wrapper #body #content #noibat ul{
+	float:left;
+	width:970px;
+	height:75px;
+	list-style:none;
+	margin:20px 20px;
+	}
+#wrapper #body #content #noibat li{
+	float:left;
+	width:175px;
+	height:75px;
+	border-bottom:1px #e5e5e5 solid;
+	border-left:1px #e5e5e5 solid;
+	border-right:1px #e5e5e5 solid;
+	border-top:1px #e5e5e5 solid;
+	margin-right:12px;
+	}
+#wrapper #body #content #noibat li img{
+	padding-top:5px;
+	}
+
+#wrapper #body #content #main{
+	float:right;  
+    width: 765px;
+	height:auto;
+	padding-left:3px;
+	margin-left:5px; margin-top:10px;
+	background:#fff;
+	border-radius:5px;
+	
+	
+	
+	}
+#wrapper #body #content #slider{
+margin:auto;
+	}
+
+#wrapper #body #content #main #miens{
+	float:left;  
+    width: 770px;
+	height:auto;
+	}
+#wrapper #body #content #main #mien{
+	float:left;
+    width: 247px;
+	height:210px;
+	margin:5px 0;
+	margin-right:4px;
+	border-radius:8px;
+	background:#edeff4;
+	border-bottom:1px #cac8c8 solid;
+	border-left:1px #cac8c8 solid;
+	border-right:1px #cac8c8 solid;
+	border-top:1px #cac8c8 solid;
+	}
+#wrapper #body #content #main #mien .pic{
+    width: 238px;
+	height:111px;
+	background:url(../images/Index_45.jpg) no-repeat bottom;
+	margin:5px 5px;
+	}
+#wrapper #body #content #main #mien .pic img{
+	height:94px;
+	border-bottom:1px #cac8c8 solid;
+	border-left:1px #cac8c8 solid;
+	border-right:1px #cac8c8 solid;
+	border-top:1px #cac8c8 solid;
+	margin: 0 2px;
+    width: 225px;
+	padding:3px;
+	background:#FFF;
+	}
+#wrapper #body #content #main #mien h3{
+    width: 218px;
+	height:12px;	
+	margin:0px auto;
+	font:arial;
+	text-align:center;
+	font-size:12px;
+	color:#456322;
+	font-weight:bold;
+	text-transform:uppercase;
+	}
+#wrapper #body #content #main #mien .name{
+    width: 218px;
+	height:111px;	
+	margin:8px 10px;
+	font:arial;
+	text-align:justify;
+	font-size:12px;
+	
+	}
+#wrapper #body #content #main #news {
+	float:left;
+    width: 779px;
+	height:auto;
+	margin:0px auto;
+	border-radius:8px;
+	border-bottom:1px #cac8c8 solid;
+	border-left:1px #cac8c8 solid;
+	border-right:1px #cac8c8 solid;
+	border-top:1px #cac8c8 solid;
+	}
+#wrapper #body #content #main #news .top {
+    width: 781px;
+	height:26px;
+	margin:0 auto;
+	background:url(../images/main_top.png) no-repeat top;
+
+	}
+#wrapper #body #content #main #news .top h3{
+	font-family:arial;
+	color:#ffffff;
+	line-height:27px;
+	font-weight:bold;
+	font-size:12px;
+	text-transform:uppercase;
+	padding-left:40px;
+	}
+#wrapper #body #content #main #news .noidung{
+    width: 781px;
+	height:auto;
+	}
+#wrapper #body #content #main #news .noidung .img{
+	float:left;
+    height: 115px;
+    margin: 10px;
+    padding: 3px;
+    width: 204px;
+	border-bottom:1px #cac8c8 solid;
+	border-left:1px #cac8c8 solid;
+	border-right:1px #cac8c8 solid;
+	border-top:1px #cac8c8 solid;
+	}
+.carousel-indicators .active {
+	background-color:#000;
+}
+.carousel-indicators li {
+	background-color:red;
+}		
+.glyphicon-chevron-left::before	{
+	content:url(nav1.png);
+}
+.glyphicon-chevron-right::before {
+	content:url(nav2.png);
+}
+#body {
+	width:100%;
+	background:url(bgnhalienhoan.jpg) no-repeat top;
+	background-size:cover;
+	background-attachment: fixed;
+}		
