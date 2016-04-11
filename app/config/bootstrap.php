@@ -1,6 +1,6 @@
 <?php
-define('DOMAIN','http://'.$_SERVER["HTTP_HOST"].'/nhalienhoan.vn/');
-define('DOMAINAD','http://'.$_SERVER["HTTP_HOST"].'/nhalienhoan.vn/admin/');
+define('DOMAIN','http://'.$_SERVER["HTTP_HOST"].'/nhalienhoan/');
+define('DOMAINAD','http://'.$_SERVER["HTTP_HOST"].'/nhalienhoan/admin/');
 
 /**
  * This file is loaded automatically by the app/webroot/index.php file after the core bootstrap.php

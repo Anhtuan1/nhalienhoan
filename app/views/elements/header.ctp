@@ -1,12 +1,15 @@
 
                  
-
+<div class="navbar-collapse collapse">
+<div class="row">
 <div id="header">
 				
+</div>
+</div>
 </div>					
-<div id="menu">
+
 <?php echo $this->element('menu');?>			
-</div>	
+
 	
 
 

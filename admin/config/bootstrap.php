@@ -1,6 +1,6 @@
 <?php
-define('DOMAINAD','http://'.$_SERVER["HTTP_HOST"].'/nhalienhoan.vn/admin/');
-define('DOMAIN','http://'.$_SERVER["HTTP_HOST"].'/nhalienhoan.vn/');
+define('DOMAINAD','http://'.$_SERVER["HTTP_HOST"].'/nhalienhoan/admin/');
+define('DOMAIN','http://'.$_SERVER["HTTP_HOST"].'/nhalienhoan/');
 
 //cau hinh gui mail
 //define('GUSER','inforngoinhanho@gmail.com');

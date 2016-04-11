@@ -1,64 +1,66 @@
-
- <?php if($session->read('lang')==1){?>
-
- 
-	<div id="menus">
-              <ul id="nav" class='menu1'>
-              	<li><a href="<?php echo DOMAIN?>">Trang chủ</a></li>
-			  		
-	
-
-
-		<li>
+<div class="navbar-collapse collapse">
+<div class="row">
+<div id="menu">
+<nav class="navbar navbar-default" id="menu_nav">
+<div class="collapse navbar-collapse">
+	<ul class="nav navbar-nav ul_menu">
+	<li><a href="<?php echo DOMAIN?>">Trang chủ</a></li>
+	<li>
 		<a href="<?php echo DOMAIN;?>danh-sanh-tin/271"> Giới thiệu </a>
-				</li>
-			<li>
+	</li>
+	<li>
 		<a href="<?php echo DOMAIN;?>san-pham"> Sản phẩm </a>
-				</li>
-	
-			 <?php $menupro1 = $this->requestAction('/comment/menucategory') ?>
-   <?php foreach($menupro1 as $menupro1){?>
-   <li><a href="<?php echo DOMAIN;?>danh-sanh-tin/<?php echo $menupro1['Category']['id'];?>/<?php echo $menupro1['Category']['alias'];?>"> <?php echo $menupro1['Category']['name'];?> </a>
-   <ul class='menu2'>
-   <?php $menupro2 = $this->requestAction('/comment/submenunew/'.$menupro1['Category']['id']) ?>
-   <?php foreach($menupro2 as $menupro2){?>
-   <li>
-   <a href="<?php echo DOMAIN;?>danh-sanh-tin/<?php echo $menupro2['Category']['id'];?>"> <?php echo $menupro2['Category']['name'];?>   </a>
-   
-   </li>
-   <?php } ?>
-   </ul>
-   
-   
-   </li>
-   
-   
-   <?php } ?>
-
-                            
-                 <li style="border-right:none;"><a href="<?php echo DOMAIN?>lien-he">Liên hệ</a></li>
+	</li>
+	<li><a href="<?php echo DOMAIN?>catalogue">Catalogue</a></li>
+	<li><a href="<?php echo DOMAIN?>tin-tuc">Tin tức</a></li>                            
+	<li ><a href="<?php echo DOMAIN?>lien-he">Liên hệ</a></li>
 				
 			
                                 
 </ul>		
 
+</div><!-- /.navbar-collapse -->
+
+
+
+</nav>
+</div>
+</div>
+</div>
+<div class="navbar-toggle collapsed advsp">	
+
+	<div id="logo_sp">
+		<a href="#"><img src="<?php echo DOMAIN;?>css/images/logo_03.png" alt="logo"></a>
+	</div>
+<button type="button" class="navbar-toggle" data-toggle="collapse"  data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="menubutton">                
+</button>
+<button type="button" class="navbar-toggle collapsed displaynone" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="menubuttonclose">
+				  
+</button>  
 
 </div>
-
-
-			
-			
-			
-    <?php } if($session->read('lang')==2){?>
-    	<div id="menus">
-              <ul id="nav"><li style="background:none; margin-top:5px; margin-left: 10px;"><img align="absbottom" src="<?php echo DOMAIN?>images/home.png" /></li>
-              	<li><a href="<?php echo DOMAIN?>">Home</a></li>                                              
-                 <li><a href="<?php echo DOMAIN?>gioi-thieu">About us</a></li>
-                 <li><a href="<?php echo DOMAIN?>san-pham">Products</a></li>
-                 <li><a href="<?php echo DOMAIN?>tin-tuc">News - Event</a></li>
-                 <li><a href="<?php echo DOMAIN?>tuyen-dung">Recruitment</a></li>
-                 <li><a href="<?php echo DOMAIN?>lien-he">Contact us</a></li>               
-</ul>	            
-          </div>
-    <?php }?>
-
+</div>
+<div class="displaynone" id="bs-example-navbar-collapse-1">
+	<div class="row">
+	<div id="backgourndmenu" class="contents">	
+		<ul class="listnav count_6"> 
+		<li class='active dropdown' ><a  href="<?php echo DOMAIN;?>">Trang chủ</a></li>
+		<li>
+			<a href="<?php echo DOMAIN;?>danh-sanh-tin/271"> Giới thiệu </a>
+		</li>
+		<li>
+			<a href="<?php echo DOMAIN;?>san-pham"> Sản phẩm </a>
+		</li>
+		<li><a href="<?php echo DOMAIN?>catalogue">Catalogue</a></li>
+		<li><a href="<?php echo DOMAIN?>tin-tuc">Tin tức</a></li>                            
+		<li ><a href="<?php echo DOMAIN?>lien-he">Liên hệ</a></li>
+		</ul>	
+		<div class='searchtop'>                       			
+			<form action="<?php echo DOMAIN;?>search/" method="post">
+			<input class='searchtxt' autocomplete='on' id="search" name="search" placeholder="Tìm kiếm...">
+			<input class="searchbtn" type='submit' name='submit' value=""/>
+			</form>
+		</div>	
+	</div>
+	</div>
+</div>

@@ -1,4 +1,4 @@
-
+<div class="row">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
 
@@ -31,3 +31,4 @@
 					  </a>
 </div>
 
+</div>

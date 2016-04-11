@@ -198,7 +198,6 @@ HỖ TRỢ TRỰC TUYẾN
          <?php echo $this->element('header');?> 		 
         <?php echo $this->element('slide');?>
         
-         <div id="content">
 			<?php echo $content_for_layout; ?>
 			   
              <div class="clearfix"></div> 
@@ -207,9 +206,7 @@ HỖ TRỢ TRỰC TUYẾN
 		 <?php //echo $this->element('partner');?> 
 		 
 		 
-	
-	      </div>  
-          </div><!--end body--> 
+    </div><!--end body--> 
 		<?php //echo $this->element('footer');?>
 		
 	</div>

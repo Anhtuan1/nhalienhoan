@@ -9544,3 +9544,5 @@
 2015-11-06 11:00:23 Notice: Notice (8): Undefined variable: i in [/home/nhalienhoan/nhalienhoan.vn/app/views/products/search.ctp, line 12]
 2015-11-06 11:00:25 Notice: Notice (8): Undefined variable: i in [/home/nhalienhoan/nhalienhoan.vn/app/views/products/search.ctp, line 12]
 2016-03-04 08:01:30 Notice: Notice (8): unserialize() [<a href='http://php.net/function.unserialize'>function.unserialize</a>]: Error at offset 4036 of 4085 bytes in [/home/nhalienhoan/nhalienhoan.vn/cake/libs/cache/file.php, line 176]
+2016-04-11 09:03:04 Debug: Notice (8): Undefined index: Catalogue in [D:\Hoyu\Training\Tripanzee_php\Source\nhalienhoan\app\views\elements\menu.ctp, line 76]
+2016-04-11 09:03:13 Debug: Notice (8): Undefined index: Catalogue in [D:\Hoyu\Training\Tripanzee_php\Source\nhalienhoan\app\views\elements\menu.ctp, line 76]
