@@ -1,0 +1,99 @@
+* { margin:0; padding:0; }
+
+#newsticker-demo { 
+width:310px; 
+background:#EAF4F5; 
+padding:5px 5px 0; 
+font-family:Verdana,Arial,Sans-Serif;
+font-size:12px;
+margin:20px auto;
+}
+
+#newsticker-demo a { text-decoration:none; }
+#newsticker-demo img { border: 2px solid #FFFFFF; }
+
+#newsticker-demo .title {
+text-align:center;
+font-size:14px;
+font-weight:bold;
+padding:5px;
+}
+
+.newsticker-jcarousellite { width:300px; }
+.newsticker-jcarousellite ul li{ list-style:none; display:block; padding-bottom:1px; margin-bottom:5px; }
+.newsticker-jcarousellite .thumbnail { float:left; width:250px; }
+.newsticker-jcarousellite .info { float:right; width:190px; }
+.newsticker-jcarousellite .info span.cat { display: block; font-size:10px; color:#808080; }
+
+.clear { clear: both; }
+
+
+
+
+#big { overflow:hidden; background:url(images/bg.png); }
+#wapper {width:1000px; overflow:hidden;margin:auto; background:#FFFFFF; }
+#header {height:173px ; width:1000px; overflow:hidden; background:url(images/hamy.jpg); }
+#menu {height:37px; width:1000px; margin:auto;  background:url(images/hamy_menu.jpg);}
+
+#left {float:left; width:270px; margin-left:3px; margin-right:10px; overflow:hidden; }
+#content {float:left; overflow:hidden; width:717px;}
+#footer_hamy {width:1366px; height:214px; background:url(images/footer_hamy.jpg) no-repeat }
+
+#tieudemenu1 {width:269px; height:40px; background:url(images/tieudemenu1.jpg); line-height:40px; padding-left:15px; color:#FFFFFF; font-weight:600;}
+#noidungmenu1 {width:269px; height:37px; background:url(images/noidungmenu1.jpg); line-height:37px ; padding-left:35px;}
+#menu1 {width:269px;overflow:hidden; border-radius:10px; }
+#menu2 {width:269px;overflow:hidden; border-radius:10px; margin-top:5px; }
+#hotrotructuyen {width:269px;overflow:hidden; border-radius:10px; margin-top:5px; }
+#sanphambanchay {width:269px;overflow:hidden; border-radius:10px; margin-top:5px; }
+#tintucnoibat {width:269px;overflow:hidden; border-radius:10px; margin-top:5px; }
+#tieudemenu2 {width:230px; height:40px; background:url(images/tieudemenu2.jpg); line-height:40px; padding-left:30px; color:#444444; font-weight:600; }
+#tieudemenu3 {width:230px; height:40px; background:url(images/tieudemenu3.jpg); line-height:40px; padding-left:30px; color:#444444; font-weight:600; }
+#tieudemenu4 {width:230px; height:38px; background:url(images/tieudemenu4.jpg); line-height:40px; padding-left:30px; color:#444444; font-weight:600; }
+#tieudemenu5 {width:230px; height:40px; background:url(images/tieudemenu5.jpg); line-height:40px; padding-left:30px; color:#444444; font-weight:600; }
+#noidungmenu2 {width:239px; height:28px; background:url(images/noidungmenu2.jpg); line-height:28px ; padding-left:35px;}
+#slide {width:717px; height:247px; float:left; }
+#danhmuccacsanpham { float:left; width:702px; overflow:hidden; border:1px solid #CCCCCC; border-radius:7px; padding-left:10px; margin-top:10px; margin-bottom:10px;}
+#tieudecacdanhmuc { width:649px; background:url(images/tieudecacdanhmuc.jpg); height:37px; padding-left:49px; color:#444444; font-weight:600; line-height:37px;}
+#noidungcacsanpham {width:717px; padding:5px; overflow:hidden; }
+#khungsanpham {height:306px; width:222px; float:left; margin-right:10px; margin-bottom:15px;}
+#anhsanpham {height:142px; width:220px; border:1px solid #CCCCCC; margin-bottom:15px;}
+#nutchitiet {text-align:center; }
+#motasanpham {width:222px; text-align:center; margin-top:3px; margin-bottom:5px; min-height:112px; }
+
+
+#motasanpham a {color:#393c39 }
+#motasanpham a:hover {color:#bd2c73;}
+#doitac {width:1000px; height: 110px; border-top:5px solid #f74594; float:left; }
+
+.menuheaders{  }
+	.menuheaders a{ 
+
+  color: #FFFFFF;
+	
+	
+	}
+	
+	
+	
+.menucontents li { 
+	 
+	 
+	 background: url("images/nenmenu.jpg") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-weight: 600;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 15%;
+   
+    width: 85%;
+	 
+	 
+	 
+	 
+	 
+	 
+	 }
+	 
+	 .menucontents li a { line-height:28px;  padding-left:22px; font-weight:600; color:#683203; }
+
+

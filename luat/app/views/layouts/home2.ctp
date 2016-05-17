@@ -1,0 +1,1 @@
+<?php echo $this->element('slide_sp') ; ?>

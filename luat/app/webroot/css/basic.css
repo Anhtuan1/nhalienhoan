@@ -1,0 +1,142 @@
+﻿
+
+
+
+
+
+* html div#fl813691 {
+    overflow: hidden;
+    position: absolute;
+}
+#fl813691 {
+    bottom: 0;
+    color: #666666;
+    font: 12px Arial,Helvetica,sans-serif;
+    height: 38px;
+    position: fixed;
+    right: 0;
+    z-index:99999;
+}
+#eb951855 {
+    background: url("fullborder_bg_right.gif") no-repeat scroll right top transparent;
+    padding-right: 3px;
+   
+    z-index:99999;
+}
+#cob263512 {
+    background: url("fullborder_bg.gif") no-repeat scroll left top transparent;
+    height: 38px;
+    padding-left: 0px;
+    z-index:99999;
+	width:270px;
+}
+#coh963846 {
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    width: 264px;
+    z-index:99999;
+	float:right;
+}
+#coh963846 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#coc67178 {
+    float: right;
+    height: 15px;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+#coc67178 li {
+    display: inline;
+}
+#coc67178 li a {
+    background-image: url("nutan.png");
+    background-repeat: repeat;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 15px;
+    width: 30px;
+}
+#coc67178 li a.close {
+    background-position: 0 0;
+}
+#coc67178 li a.close:hover {
+    background-position: 0 -15px;
+}
+#coc67178 li a.min {
+    background-position: -30px 0;
+}
+#coc67178 li a.min:hover {
+    background-position: -30px -15px;
+}
+#coc67178 li a.max {
+    background-position: -60px 0;
+}
+#coc67178 li a.max:hover {
+    background-position: -60px -15px;
+}
+#co453569 {
+    background-color: #ECECEC;
+    border-color: #111111 #999999 #999999 #111111;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    height: 200px;
+    line-height: 1.6em;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+/*---- PAGE: DISCOUNT ----*/
+.dis-bg { background: #e3ecf6; margin: 0; padding: 0; }
+.title_cate_dis { margin: 3px 0 0 0; padding: 0; height: 50px; border-bottom: 1px solid #CCC; background: #FFF; position: relative; }
+.title_cate_dis h3 { font: 20px !important; font-weight: bold; text-transform: none; font-family: Arial, Helvetica, Sans-Serif; margin: 0; padding: 10px 0 0 5px; }
+.title_cate_dis img { width: 50px; height: 50px; border: 0 none; }
+.title_cate_dis img, .title_cate_dis h3 { float: left; }
+.title_cate_dis .title-message { margin: 0 10px 0 0; padding: 0; width: 670px; height: 100%; float: right; background: url(/Images/bg-message.gif) no-repeat left; color:red; font-weight:bold; }
+.title-message ul.run-message { height: 1em; padding: 12px 0 0 70px; list-style: none; }
+.title-message ul.run-message li { display: block; font-size: 14px; }
+.title-message ul.run-message li a { font-size: 14px; text-decoration: none; }
+.title-message ul.run-message li a:hover { color: #ee3124; }
+
+.title-gianhang { height: 50px; margin: 0; padding: 0; text-align: center; width: 100%; }
+.title-gianhang h1 { margin: 0; padding: 10px 0 0 0; font-size: 26px; font-weight: bold; text-transform: uppercase; }
+
+.pro_accessories, .sell_region { margin-top: 10px; }
+.sell_region ul { list-style: none; margin-top: 10px; font-size: 12px; }
+.sell_region ul li { display: block; padding-bottom: 3px; }
+
+.padding5px { padding: 10px; }
+
+
+/*---- TIN TUC: TU VAN TIEU DUNG ----*/
+.news_tieudung { background:url(/../../Images/bg_hot_tieudung.png) no-repeat; width: 214px; height: 140px; position: relative; color: #fff; } 
+a.goBack, a.goNext {
+    display: block;
+    height: 17px;
+	width: 17px;
+    text-decoration: none;
+	cursor: pointer;
+	position: absolute;  
+	bottom: 2px;
+}
+a.goBack {
+    background:url(/../../Images/a_prev.png) no-repeat transparent; left: 2px;
+}
+a.goNext {
+    background:url(/../../Images/a_next.png) no-repeat transparent; right: 2px;
+}
+.news_td_block a { color: #fff000; }
+.news_td_block { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; float: left; }
+.news_read_block { width: 208px; height: 60px; margin: 45px 8px 35px 8px; overflow: hidden; display: block; float: left; padding: 0; }
+.news_read_block .bl_images { float:left; width: 50px; height: 40px; overflow: hidden; padding: 5px; background: #fff; }
+.news_read_block .bl_content { float: left; width: 140px; margin-left: 4px; }
+
